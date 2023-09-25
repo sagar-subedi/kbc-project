@@ -143,6 +143,7 @@ if(leaderboard.length === 0){
 
 
 let currentUser = getCurrentUser();
+document.getElementById("current-user").innerText = currentUser.email;
 let userLoggedin = currentLevel !== null;
 const homeUrl = 'https://illustrious-cascaron-2979a1.netlify.app/'; 
 const loginPageUrl = 'https://illustrious-cascaron-2979a1.netlify.app/login';
