@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+
+    <link rel="stylesheet" href="./index.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>Signup Page</h1>
+        </div>
+
+        <!-- create form -->
+
+        <div class="create-section rounded-golden-border">
+            <h3>Enter Your Details</h3>
+            <div class="create-form">
+                <label for="email">Email:</label>
+                <input id="email" type="text" class="create-input" oninput="checkEmail(event.target.value)" placeholder="Enter email">
+                <br>
+                <label for="password">Password</label>
+                <input id="password" type="password" class="create-input" placeholder="Enter password" oninput="checkPass(event.target.value)">
+                <br>
+                
+                <label for="password-confirm">Confirm Password</label>
+                <input id="password-confirm" type="password" class="create-input" placeholder="Enter password again" oninput="checkPass(event.target.value)">
+                <br>
+                <input type="button" class="btn create-btn" value="Register" onclick="handleRegister()">
+            </div>
+
+            <p>Already have an account?</p><a href="http://127.0.0.1:5500/login.html">Login Here</a>
+        </div>
+    </div>
+    <script src ="./common.js"></script>
+    <script src="./storageUtils.js"></script>
+    <script src="./register.js"></script>
+</body>
+</html>

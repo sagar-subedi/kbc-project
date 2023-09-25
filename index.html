@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="./index.css">
+   
+    <title>KBC Quiz</title>
+</head>
+<body>
+    <div class="game">
+        <div class="header rounded-golden-border header-row">
+            <img  height="40px" src="./assets/kbc-logo.png" alt="KBC LOGO">
+            <h1>Kaun Banega Crorepati</h1>
+            <img height="40px" src="./assets/kbc-logo.png" alt="KBC LOGO">
+        </div>
+         <div class="column game-space">
+            <div id="info-div" class="rounded-golden-border">Welcome. Let's see if you can change your fortune.</div>
+            <div id="quiz-row" class="row ">
+                <div id="control-div" class="rounded-golden-border column">
+                    <div class="rounded-golden-border" id="start-stop-btn" onclick="onStartQuiz()">Start</div>
+                    <div class="rounded-golden-border" id="leaderboard-btn" onclick="gotoLeaderBoard()">Goto Leaderboard</div>
+                    <div class="logout-btn" onclick="handleLogout()" id="">
+                        <p>Logout</p>
+                    </div>
+                </div>
+                <div id="quiz" class="column">
+                    <div id="question" class="rounded-golden-border">What is the purpose of life, universe and everything?</div>
+                    <div class="options column grid-container">
+                        <div id="option1"  class="option rounded-golden-border grid-item" onclick="onSelectOption(event)">Option 1</div>
+                        <div id="option2" class="option rounded-golden-border grid-item" onclick="onSelectOption(event)">Option 2</div>
+                        <div id="option3" class="option rounded-golden-border grid-item" onclick="onSelectOption(event)">Option 3</div>
+                        <div id="option4" class="option rounded-golden-border grid-item" onclick="onSelectOption(event)">Option 4</div>
+
+                    </div>
+                   
+                        <div id="next-question-btn" class="rounded-golden-border" onclick="onNextQuestion()">Next</div>
+                </div>
+                <div id="instruction">
+                   <img src="./assets/kbc-logo.png" alt="KBC LOGO">
+                </div>
+                <div id="progress-div" class="rounded-golden-border">
+                    <ul>
+                        <li class="milestone">1,00,00,000</li>
+                        <li class="">50,00,000</li>
+                        <li>25,00,000</li>
+                        <li class="milestone">12,50,000</li>
+                        <li>6,40,000</li>
+                        <li>3,20,000</li>
+                        <li class="milestone">1,60,000</li>
+                        <li>80,000</li>
+                        <li>40,000</li>
+                        <li>20,000</li>
+                        <li>10,000</li>
+                        <li>5,000</li>
+                    </ul>
+                </div>
+                
+
+            </div>
+         </div>
+
+    </div>
+    <script src="./storageUtils.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+

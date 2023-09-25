@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="./index.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>Login Page</h1>
+        </div>
+
+        <!-- create form -->
+
+        <div class="create-section rounded-golden-border">
+            <h3>Enter Credentials</h3>
+            <div class="create-form">
+                <label for="email">Email</label>
+                <input id="email" type="text" class="create-input" oninput="checkEmail(event.target.value)" placeholder="Enter email">
+                <br>
+                <label for="password">Password</label>
+                <!-- oninput="checkPass(event.target.value) -->
+                <input id="password" type="password" class="create-input" placeholder="Enter password">
+                <br>
+                <input type="button" class="btn create-btn" value="Login" onclick="handleLogin()">
+            </div>
+
+            <p>Don't have an account?</p><a href="http://127.0.0.1:5500/register.html">Register Here</a>
+        </div>
+       
+
+      
+
+
+        <!-- remove all completed button to go here -->
+    </div>
+    <script src ="./common.js"></script>
+    <script src="./storageUtils.js"></script>
+    <script src="./login.js"></script>
+</body>
+</html>

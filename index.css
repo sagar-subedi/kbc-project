@@ -1,0 +1,249 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #2a133d;
+    color: goldenrod;
+}
+.app {
+    align-items: center;
+    width: 30rem;
+    border-radius: 20px;
+}
+
+.game {
+    width: 90%;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 7px;
+}
+
+.header-row {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+   font-size: 14px;
+}
+
+.create-section {
+    padding-top: 30px;
+}
+.create-form {
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.create-input, .modify-input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.create-input:focus, .modify-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(185, 112, 241, 0.7);
+}
+
+
+
+.logout-btn, .clear-btn {
+    background-color: #e22f1b;
+    padding: 10px 20px;
+    border-radius: 3rem;
+    text-align: center;
+    color: rgb(255, 183, 0);
+   
+}
+
+.logout-btn:hover, .clear-btn:hover {
+    background-color: #cc1400;
+    color: azure;
+}
+
+.logout-btn:disabled{
+    background-color: #817c7c;
+}
+
+
+ .create-btn {
+    background-color: #27ae60;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+ }
+
+ .create-btn:hover {
+    background-color: #219a52;
+ }
+
+.modification-form {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+p {
+    margin:3px;
+}
+
+.rounded-golden-border {
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+}
+
+#leaderboard {
+
+}
+
+#info-div{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#info-div span {
+    color: goldenrod;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#start-stop-btn:hover, #leaderboard-btn:hover {
+    color: #2a133d;
+    background-color: goldenrod;
+}
+
+.leaderboard-entry {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    /* color:#00ff6a; */
+
+}
+
+#quiz {
+    width: 65%;
+}
+
+#quiz-row {
+    gap:40px;
+}
+
+#info-div{
+    color: white;
+}
+
+#leaderboard-users {
+    padding-inline-start: 0px;
+}
+
+#control-div{
+    padding: 1rem 2rem;
+    border-width: 4px;
+}
+
+#progress-div {
+    border-width: 4px;
+}
+
+#progress-div ul{
+    padding: 15px;
+    list-style: none;
+}
+
+#progress-div ul li::before {
+    content: "\20B9"; /* Unicode character for a black square */
+    margin-right: 10px
+}
+
+#next-question-btn{
+    width: 5%;
+    margin-top: 30px;
+    font-size: x-small;
+    font-weight: 800;
+
+}
+
+#next-question-btn:hover{
+    background-color: goldenrod;
+    color: #401763;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+
+  .grid-item:hover{
+    background-color: yellow;
+    border-color: yellow;
+    color: #401763;;
+  }
+
+  .game-space {
+       color: goldenrod;
+  }
+
+
+  #question {
+    font-size: 25px;
+    border-width: 4px;
+    font-weight: 700;
+  }
+
+  .milestone {
+    color: skyblue;
+  }
+  
+ 
+
+
+
