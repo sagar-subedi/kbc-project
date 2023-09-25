@@ -24,7 +24,7 @@ function handleLogin(){
             password
         });
 
-        window.location.href = 'http://https://illustrious-cascaron-2979a1.netlify.app/'; 
+        window.location.href = 'https://illustrious-cascaron-2979a1.netlify.app/'; 
     }
     else{
        console.log("Incorrect Credentials");

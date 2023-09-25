@@ -36,7 +36,7 @@ function handleRegister(){
     saveUsers(users); //saves the new users array to local storage
 
     alert('Registration Successful,  You can now sign in with your credentials');
-    window.location.href = 'http://127.0.0.1:5500/login.html'; 
+    window.location.href = 'https://illustrious-cascaron-2979a1.netlify.app/register'; 
 
 
 }
