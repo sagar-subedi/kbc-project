@@ -144,9 +144,9 @@ if(leaderboard.length === 0){
 
 let currentUser = getCurrentUser();
 let userLoggedin = currentLevel !== null;
-const homeUrl = 'http://127.0.0.1:5500/index.html'; 
-const loginPageUrl = 'http://127.0.0.1:5500/login.html';
-const leaderboardPageUrl = 'http://127.0.0.1:5500/leaderboard.html';
+const homeUrl = 'https://illustrious-cascaron-2979a1.netlify.app/'; 
+const loginPageUrl = 'http://https://illustrious-cascaron-2979a1.netlify.app/login';
+const leaderboardPageUrl = 'http://https://illustrious-cascaron-2979a1.netlify.app/leaderboard';
 
 
 

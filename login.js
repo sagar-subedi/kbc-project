@@ -24,10 +24,10 @@ function handleLogin(){
             password
         });
 
-        window.location.href = 'http://127.0.0.1:5500/index.html'; 
+        window.location.href = 'http://https://illustrious-cascaron-2979a1.netlify.app/'; 
     }
     else{
        console.log("Incorrect Credentials");
-       
+
     }
 }
